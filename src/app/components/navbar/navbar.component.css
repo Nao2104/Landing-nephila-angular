@@ -1,0 +1,17 @@
+.logo{
+    width: 10vh;
+}
+
+.bg-navbar-blue{
+    background-color: #02152b;
+}
+
+.bg-nav-link-gold{
+    color: #99804e ;
+    font-size: 15pt;
+}
+
+.social{
+    width: 4vh;
+    margin: 10px;
+}

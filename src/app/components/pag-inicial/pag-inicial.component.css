@@ -1,0 +1,212 @@
+
+/* estilos banner */
+@media screen and (max-width: 1920px) {
+  .contenedor {
+    width: 100%;
+    height: 500px;
+    background-image: url(../../../assets/img/4913-Elementos-claves-para-elaborar-un-modelo-de-negocio-digital-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.cuadro {
+  width: 100%;
+  height: 500px;
+  background-color: #00000031;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-1 {
+  color: #ffffff;
+  margin-top: 320px;
+}
+.text-2 {
+  color: #ffffff;
+  margin-top: 5px;
+}
+.line {
+  width: 45%;
+  height: 3pt;
+  background-color: #d4af37;
+}
+
+.btn-conoce {
+  color: #000a23;
+}
+
+/* Card e info */
+
+.card-info {
+    display: flex;
+  }
+  
+  .card-img1 {
+    opacity: 0.3;
+    border-radius: 10px;
+  }
+  
+  .card-title1 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  .card-text1 {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .card-text2 {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  
+  /* formulario */
+  .formul {
+    margin: 30px;
+  }
+  
+  .masinfo {
+    margin-bottom: 60px;
+  }
+  
+  .title-infoempre {
+    background: #02152b;
+    color: #d4af37;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  /* styles cientes  */
+
+.carrete-client {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #clientes1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    margin: 5%;
+    grid-gap: 30px;
+  }
+  
+  #clientes1 img {
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+  }
+  
+  #clientes1 img:hover {
+    transform: scale(1.15);
+  }
+  .title-infoempre {
+    background: #02152b;
+    color: #d4af37;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+  }
+
+  /* Styles carrusel */
+
+.card {
+    background-color: #00000056;
+  }
+  
+  .card-title {
+    color: #fff;
+  }
+  
+  .card-text {
+    color: #fff;
+  }
+  
+  .title_carrusel h1{
+    color: #ffffff;
+  }
+  
+  .btn {
+    background-color: #d4af37;
+    color: #000;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #f6bd00;
+    color: #000a23;
+  }
+  
+  .img-wrapper {
+    min-width: 100%;
+    height: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  @media screen and (min-width: 576px) {
+    .carousel-inner{
+      display: flex;
+    }
+  
+    .carousel-item{
+      display: block;
+      margin-right: 0;
+      flex: 0 0 calc(100% / 3);
+    }
+    .img-wrapper{
+      height: 23vw;
+    }
+  }
+  .carousel-inner{
+    padding: 1em;
+  }
+  .card{
+    margin: 0 0.5em;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26,.18);
+  }
+  .carousel-control-prev, .carousel-control-next{
+      width: 6vh;
+      height: 6vh;
+      background-color: #e1e1e1;
+      border-radius: 50%;
+      top:50%;
+      transform: translateY(-50%);
+      opacity: .5;
+  }
+  .carousel-control-prev:hover, .carousel-control-next:hover{
+      opacity: .8;
+  }
+  
+
+  
+
+ 

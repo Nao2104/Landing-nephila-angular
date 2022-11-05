@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-navbar-blue">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="{{image}}" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav d-flex justify-content-center w-100">
+        <a class="nav-link bg-nav-link-gold" [routerLink]="['/home']">Home</a>
+        <a class="nav-link bg-nav-link-gold" [routerLink]="['/quienes']">Quienes somos</a>
+        <a class="nav-link bg-nav-link-gold" [routerLink]="['/servicios']">Servicios</a>
+        <a class="nav-link bg-nav-link-gold" [routerLink]="['/contac']">Contáctanos</a>
+        
+      </div>
+    </div>
+    <div class="navbar-nav d-flex justify-content-center " >
+  <a href="https://es-la.facebook.com/" target="_blank"><img class="social" src="{{face}}" alt="face"></a>
+  <a href="https://www.instagram.com/" target="_blank"><img class="social" src="{{insta}}" alt="insta"></a>
+  <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img class="social" src="{{what}}" alt="what"></a>
+  
+    </div>
+  </div>
+</nav>
